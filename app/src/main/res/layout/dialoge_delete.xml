@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:background="#a8a8a8"
+        android:layout_margin="10dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/are_you_sure_want_to_delete_n_this_note"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/dialog_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/no_round"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/no"
+        android:textColor="#9575CD"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/yes_round"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/yes"
+        android:textColor="#CFD8DC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
